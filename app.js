@@ -5,26 +5,57 @@ const store = {
   // 5 or more questions are required
   questions: [
     {
-      question: 'What color is broccoli?',
+      question: 'What is the NBA team LeBron James has not played for?',
       answers: [
-        'red',
-        'orange',
-        'pink',
-        'green'
+        'Cleveland Cavaliers',
+        'Los Angeles Lakers',
+        'Minnesota Timberwolves',
+        'Miami Heat'
       ],
-      correctAnswer: 'green'
+      correctAnswer: 'Minnesota Timberwolves'
     },
     {
-      question: 'What is the current year?',
+      question: 'Who won the 2020 NBA Defensive player of the year?',
       answers: [
-        '1970',
-        '2015',
-        '2019',
-        '2005'
+        'Rudy Gobert',
+        'Anthony Davis',
+        'Marcus Smart',
+        'Giannis Antetokounmpo'
       ],
-      correctAnswer: '2019'
-    }
+      correctAnswer: 'Giannis Antetokounmpo'
+    },
+    {
+      question: 'Who won the 2020 NBA Rookie of the Year?',
+      answers: [
+        'Ja Morant',
+        'Brandon Clarke',
+        'Zion Williamson',
+        'Tyler Herro'
+      ],
+      correctAnswer: 'Ja Morant'
+    },
+    {
+      question: 'How many NBA Finals MVPs does Steph Curry have? ',
+      answers: [
+        '0',
+        '1',
+        '2',
+        '3'
+      ],
+      correctAnswer: '0'
+    },
+    {
+      question: 'Who is the NBA logo made after?',
+      answers: [
+        'Michael Jordan',
+        'Larry Bird',
+        'Jerry West',
+        'Magic Johnson'
+      ],
+      correctAnswer: 'Jerry West'
+    },
   ],
+  
   quizStarted: false,
   questionNumber: 0,
   score: 0
