@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz App</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="app.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>NBA Quiz</h1>
+  </header>
+  <main>
+    <form class="questionForm" id="q1" data-question="1">
+        <div id = "question">What is the NBA team LeBron James has not played for?</div>
+            <input name="team" type="radio" value="Cleveland Cavaliers">
+             <label for="Cleveland Cavaliers">Cleveland Cavaliers</label><br>
+            <input name="team" type="radio" value="Los Angeles Lakers">
+             <label for="Los Angeles Lakers">Los Angeles Lakers</label><br>
+            <input name="team" type="radio" value="Minnesota Timberwolves">
+             <label for="Minnesota Timberwolves">Minnesota Timberwolves</label><br>
+            <input name="team" type="radio" value="Miami Heat">
+             <label for="Miami Heat">Miami Heat</label><br>
+            <button type="submit">Submit</button>
+      </form>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
